@@ -33,7 +33,7 @@ coordinates_list = extract_boundary_coordinates(
     seongdong_gu_data, "Seongdong-gu boundary"
 )
 
-with open("seongdong_gu_boundary.json", "w") as f:
+with open("seongdong_boundary.json", "w") as f:
     f.write(
         json.dumps({"name": "Seongdong-gu boundary", "coordinates": coordinates_list})
     )
